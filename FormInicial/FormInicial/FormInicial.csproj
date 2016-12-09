@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormHuellaDig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHuellaDig.Designer.cs">
+      <DependentUpon>FormHuellaDig.cs</DependentUpon>
+    </Compile>
     <Compile Include="NuevoRegistro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHuellaDig.resx">
+      <DependentUpon>FormHuellaDig.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NuevoRegistro.resx">
       <DependentUpon>NuevoRegistro.cs</DependentUpon>
