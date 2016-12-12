@@ -58,6 +58,12 @@
     <Compile Include="FormHuellaDig.Designer.cs">
       <DependentUpon>FormHuellaDig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="NuevoRegistro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormHuellaDig.resx">
       <DependentUpon>FormHuellaDig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NuevoRegistro.resx">
       <DependentUpon>NuevoRegistro.cs</DependentUpon>

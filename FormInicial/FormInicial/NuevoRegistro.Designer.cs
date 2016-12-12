@@ -180,7 +180,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(515, 29);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 33);
+            this.button1.Size = new System.Drawing.Size(90, 38);
             this.button1.TabIndex = 10;
             this.button1.Text = "BUSCAR";
             this.button1.UseVisualStyleBackColor = true;
