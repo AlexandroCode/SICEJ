@@ -129,6 +129,10 @@ namespace FormInicial
 
         private void button7_Click(object sender, EventArgs e)
         {
+            Recluso aRecluso = new Recluso();
+            aRecluso.Nombre = txtNombre.Text.Trim();
+            aRecluso.App = txtApp.Text.Trim();
+            aRecluso.Apm = txtApm.Text.Trim();
 
         }
     }
