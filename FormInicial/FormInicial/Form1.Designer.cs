@@ -97,6 +97,7 @@
             this.nuevoRegistroToolStripMenuItem.Name = "nuevoRegistroToolStripMenuItem";
             this.nuevoRegistroToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.nuevoRegistroToolStripMenuItem.Text = "Nuevo Registro";
+            this.nuevoRegistroToolStripMenuItem.Click += new System.EventHandler(this.nuevoRegistroToolStripMenuItem_Click);
             // 
             // Form1
             // 

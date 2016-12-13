@@ -15,6 +15,14 @@ namespace FormInicial
         public Form1()
         {
             InitializeComponent();
+           // Login log = new Login();
+           // log.Show();
+        }
+
+        private void nuevoRegistroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NuevoRegistro frm = new NuevoRegistro();
+            frm.Show();
         }
     }
 }

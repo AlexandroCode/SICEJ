@@ -21,5 +21,22 @@ namespace FormInicial
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ConectorBD.ObtenerConexion();
+            MessageBox.Show("conectado");
+                
+            if (txt_usuario.Text == "ADMIN" & txt_contraseña.Text == "ADMIN123") 
+            {
+                Form1 frm = new Form1();
+                frm.Show();
+            }
+        }
+
+        private void btn_cancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
